@@ -1,0 +1,48 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [
+		{
+			"path": "pages/home/index",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "主页",
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white"
+			}
+		}, {
+			"path": "pages/mine/index",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "black"
+			}
+		}
+  ],
+	"tabBar":{
+		"backgroundColor": "#fff",
+		"borderStyle":"white",
+		"display": "none",
+		"list": [
+			{
+				"pagePath": "pages/home/index",
+				"text": "主页"
+			},
+			{
+				"pagePath": "pages/mine/index",
+				"text": "我的"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "3D预览",
+		"navigationBarBackgroundColor": "#1890FF",
+		"backgroundColor": "#FFFFFF"
+	},
+	"condition": {
+		"current": 0,
+		"list": []
+	}
+}

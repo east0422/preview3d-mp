@@ -1,0 +1,21 @@
+{
+    "name" : "3D预览",
+    "appid" : "wx2333c76d8876b255",
+    "description" : "3D预览",
+    "versionName" : "1.0.0",
+    "versionCode" : "1",
+    "transformPx" : false,
+    "quickapp" : {},
+    "mp-weixin" : {
+        "appid" : "wx2333c76d8876b255",
+        "setting" : {
+            "urlCheck" : true,
+            "es6" : true,
+            "postcss" : true,
+            "minified" : true,
+			"checkSiteMap": false
+        },
+        "permission" : {}
+    }
+}
+
